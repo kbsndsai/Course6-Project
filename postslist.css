@@ -1,0 +1,424 @@
+#header {    
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+#logo {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#heading {
+    font-family: 'Montez', cursive; 
+    font-size: xx-large;
+    color: blue;
+}
+
+#subHeading {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: large;
+}
+
+#buttons {      
+    margin-left: 1100px; 
+    margin-top: 5px;   
+}
+
+#signup {
+    margin-right: 5px;
+}
+
+#signin {
+    margin-left: 5px;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+#post1 {
+    width: 600px;
+    height: 150px;
+    background-color: lightgray;
+    text-align: center;
+    border: lightyellow;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: 30px;
+    float: left;
+    display: flex;
+    flex-direction: row;
+}
+
+#post2 {
+    width: 600px;
+    height: 150px;
+    background-color: lightgray;
+    text-align: center;
+    border: lightyellow;
+    border-radius: 20px;
+    margin-right: 120px;
+    margin-top: 30px;
+    float: right;
+    display: flex;
+    flex-direction: row;
+}
+
+#post3 {
+    width: 600px;
+    height: 150px;
+    background-color: lightgray;
+    text-align: center;
+    border: lightyellow;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: 30px;
+    float: left;
+    display: flex;
+    flex-direction: row;
+}
+
+#post4 {
+    width: 600px;
+    height: 150px;
+    background-color: lightgray;
+    text-align: center;
+    border: lightyellow;
+    border-radius: 20px;
+    margin-right: 120px;
+    margin-top: 30px;
+    float: right;
+    display: flex;
+    flex-direction: row;
+}
+
+#post5 {
+    width: 600px;
+    height: 170px;
+    background-color: lightgray;
+    text-align: center;
+    border: lightyellow;
+    border-radius: 20px;
+    margin-left: 450px;
+    margin-top: 40px;
+    float: left;
+    display: flex;
+    flex-direction: row;
+}
+
+#name1 {
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;    
+    font-weight: bolder;
+    color: gray;
+    width: 200px;
+}
+
+#name2 {
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+    font-weight: bolder;
+    color: gray;
+    width: 200px;
+    
+}
+
+#name3 {
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+    font-weight: bolder;
+    color: gray;
+    width: 200px;
+}
+
+#name4 {
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+    font-weight: bolder;
+    color: gray;
+    width: 200px;
+}
+
+#name5 {
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+    font-weight: bolder;
+    color: gray;
+    width: 200px;
+}
+
+#head1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: large;
+    color: gray;
+}
+
+#body1 {
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: row;    
+    text-align: left;
+    margin-left: 20px;       
+}
+
+#head2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: large;
+    color: gray;
+}
+
+#body2 {
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: row;
+    text-align: left;   
+    margin-left: 20px; 
+}
+
+#head3 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 20px;    
+    font-weight: bold;
+    font-size: large;
+    color: gray;
+    
+}
+
+#body3 {
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: row;
+    text-align: left;    
+    margin-left: 20px; 
+}
+
+#head4 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 20px;    
+    font-weight: bold;
+    font-size: large;
+    color: gray;
+    word-wrap: break-word;
+}
+
+#body4 {
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: row;
+    text-align: left;  
+    margin-left: 20px;
+}
+
+#head5 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-left: 5px;    
+    font-weight: bold;
+    font-size: large;
+    color: gray;
+    word-wrap: break-word;
+}
+
+#body5 {
+    word-wrap: break-word;    
+    overflow-wrap: break-word;
+    display: flex;
+    flex-direction: row;    
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 20px;    
+}
+
+#trash1 {
+    float: right;
+    margin-left: 100px;
+}
+
+#trash2 {
+    float: right;
+    margin-left: 70px;
+}
+
+#trash3 {
+    float: right;
+    margin-left: 90px;
+}
+
+#trash4 {
+    float: right;
+    margin-left: 150px;
+}
+
+#trash5 {
+    float: right;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+#trash1:hover,
+#trash1:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#trash2:hover,
+#trash2:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#trash3:hover,
+#trash3:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#trash4:hover,
+#trash4:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#trash5:hover,
+#trash5:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#ell1 {
+    margin-top: 70px;
+    margin-right: 30px;
+}
+
+#ell2 {
+    margin-top: 70px;
+    margin-right: 30px;
+}
+
+#ell3 {
+    margin-top: 70px;
+    margin-right: 30px;
+}
+
+#ell4 {
+    margin-top: 70px;
+    margin-right: 30px;
+}
+
+#ell5 {
+    margin-top: 70px;
+    margin-right: 30px;
+}
+
+#ell1:hover,
+#ell1:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#ell2:hover,
+#ell12:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#ell3:hover,
+#ell3:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#ell4:hover,
+#ell4:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#ell5:hover,
+#ell5:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal {
+    display: none; /* Hidden by default */    
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    padding-top: 100px;     
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;    
+    border: 1px solid #888;
+    width: 300px; 
+    height: 130px;
+    padding: 20px;
+    margin-left: 300px;
+    margin-top: 170px;
+    text-align: center;
+}
+
+/* .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 300px;
+}
+  
+.close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+} */
+
+#yes-no {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+}
+
+#no {
+    margin-left: 275px;
+}
+
+
+
