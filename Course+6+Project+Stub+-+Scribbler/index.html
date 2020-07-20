@@ -4,10 +4,132 @@
 <head>
     <!-- TODO: Include Font Awesome file here -->
     <!-- TODO: Include Google Fonts file here -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    <link href="./headers/common.css" rel="stylesheet">    
+    <link href="./styles/index.css" rel="stylesheet">    
 </head>
 
 <body>
     <!-- TODO: Include all your code for the header and home page here -->
+
+    <div id="header">
+        <div id="logo">
+            <span id="heading">ScriBBler</span>              
+            <span id="subHeading">Explore, Imagine, Create</span>      
+        </div>  
+
+        
+        <div id="buttons">
+            <button class="btn btn-primary" id="signup" onclick="onSignUp()">Sign Up</button>
+            <button class="btn btn-primary" id="signin" onclick="onSignIn()">Sign In</button>
+        </div>
+    </div>
+
+
+    <div id="bodyContent">
+        <button class="btn btn-warning" id="allPosts" onclick="onAllPosts()">All Posts</button>
+        <button class="btn btn-warning" id="createPost" onclick="onCreatePost()">Create Post</button>
+    </div>
+
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div id="signupheader">
+                    <h3>Get Started</h3>
+                    <span class="close">&times;</span>                                      
+                </div>                                         
+                <form>
+                    <hr>
+                    <div class="form-group" id="form-fields">
+                        <div class="row">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
+                            <div class="error" id="nameErr"></div>
+                        </div>                          
+                        <div class="row">
+                            <label for="username">Username</label>
+                            <input type="text" id="username" class="form-control" placeholder="Enter your username" required>
+                            <div class="error" id="usernameErr"></div>
+                        </div>                      
+                        <div class="row">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
+                            <div class="error" id="passwordErr"></div>
+                        </div>
+                        <div class="row">
+                            <label for="confirmpassword">Confirm Password</label>
+                            <input type="password" class="form-control" id="confirmpassword" placeholder="Re-enter your password" required>
+                            <div class="error" id="confirmpasswordErr"></div>
+                        </div>                        
+                    </div>   
+                    <button type="submit" class="btn btn-success" id="formsubmit" onclick="formSignUp()">Sign Up</button>               
+                  </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="myModal2" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div id="signupheader2">
+                    <h3>Welcome Back!</h3>
+                    <span class="close2">&times;</span>                                      
+                </div>                                         
+                <form>
+                    <hr>
+                    <div class="form-group" id="form-fields2">
+                        <div class="row">
+                            <label for="username2">Username</label>
+                            <input type="text" id="username2" class="form-control" placeholder="Enter your username" required>
+                            <div class="error" id="usernameErr2"></div>
+                        </div>                          
+                        <div class="row">
+                            <label for="password2">Password</label>
+                            <input type="password" id="password2" class="form-control" placeholder="Enter your password" required>
+                            <div class="error" id="passwordErr2"></div>
+                        </div>  
+                    </div>  
+                    <button type="submit" class="btn btn-success" id="formsubmit2" onclick="formSignIn()">Sign In</button> 
+                    <span id="signup-span">Not a member? <a href="file:///C:/Users/Lelouch%20Kei/Desktop/PG%20Diploma%20Programs/Front_End_Dev/Course+6+Project+Stub+-+Scribbler/index.html">Sign Up</a></span>
+                </form>  
+            </div>   
+        </div>      
+    </div>
+    
+    
+    <div id="myModal3" class="modal">
+        <div class="modal-content3">
+            <div id="createpostsdiv">
+                <h3>Pen Your Post</h3>
+                <span class="close3">&times;</span>                                      
+            </div>        
+            <br>                                 
+            <form id="form3">
+                <hr>
+                <div class="form-group" id="form-fields3">
+                    <div class="row">
+                        <label for="title3">Title</label>
+                        <input type="text" id="title3" class="form-control" placeholder="Enter title of your post" required>
+                        <div class="error" id="titleErr"></div>
+                    </div>    
+                    <div class="row" id="textareadiv">
+                        <label for="contents">Contents</label>                                    
+                        <textarea name="contents" id="contents" class="form-control" cols="15" rows="10" placeholder="Enter the contents of your post" required></textarea>
+                        <div class="error" id="contentErr"></div>                        
+                    </div>     
+                </div> 
+            </form>
+            <button class="btn btn-success" id="create">Create</button>
+        </div>
+    </div>        
+    
 </body>
+
+<script src="./headers/common.js"></script>
+<script src="./scripts/index.js"></script>
 
 </html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- TODO: Include Font Awesome file here -->
+    <!-- TODO: Include Google Fonts file here -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    <link href="../styles/post.css" rel="stylesheet">    
+    <script src="https://use.fontawesome.com/8357074110.js"></script>
+</head>
+
+<body>
+
+    <div id="header">
+        <div id="logo">
+            <span id="heading">ScriBBler</span>              
+            <span id="subHeading">Explore, Imagine, Create</span>      
+        </div>  
+
+        
+        <div id="buttons">
+            <button class="btn btn-primary" id="signup" onclick="onSignUp()">Sign Up</button>
+            <button class="btn btn-primary" id="signin" onclick="onSignIn()">Sign In</button>
+        </div>
+    </div>
+
+    <div id="phead">
+        <p>Everything you should know about ‘module’ & ‘require’ in Node.js</p>
+    </div>
+
+    <div id="subhead">
+        <p>Srishti Gupta</p>
+
+        <button class="btn btn-danger" id="edit" onclick="editfunc()">Edit<span><i class="fa fa-pencil-square-o" aria-hidden="true"></i></span></button>      
+        
+        <div id="savebtn"></div>
+    </div>
+
+    <!-- <i class="fa fa-floppy-o" aria-hidden="true"></i> -->
+
+    <div id="para-content">
+        <p id="pid">
+            Node.js treats each JavaScript file as a separate module. For instance, if you have a file containing some code and this file is named xyz.js, then this file is treated as a module in Node. Node.js treats each JavaScript file as a separate module. For instance, if you have a file containing some code and this file is named xyz.js, then this file is treated as a module in Node, and you can say that you’ve created a module named xyz.
+        </p>
+
+        <div id="new-content"></div>
+    </div>
+
+    <button class="btn btn-danger" id="like" onclick="likefunc()"><span id="iliked"><i class="fa fa-thumbs-up" aria-hidden="true"></i></span>Liked</button>
+    <br>
+    <div id="liked"></div>
+
+    <textarea name="text-comments" id="ctext" cols="5" rows="2" placeholder="Leave a comment..."></textarea>
+    
+    <button id="commentbtn" class="btn btn-danger" onclick="commentbtnFunc()">Comment</button>
+
+    <p id="allcomments">All Comments</p>
+
+    <div id="commentslist1">
+        <div id="commentslist2">
+            <p id="para1">Great post! Thanks!</p>
+        </div>
+                
+    </div>
+    
+
+</body>
+
+<script src="../scripts/post.js"></script>
+
+</html>
