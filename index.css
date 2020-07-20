@@ -1,0 +1,84 @@
+body {
+    background-image: url('C:/Users/Lelouch Kei/Desktop/PG Diploma Programs/Front_End_Dev/Course+6+Project+Stub+-+Scribbler/images/background.jpg');
+    background-repeat: no-repeat;        
+    background-size: 1550px 800px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#bodyContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;    
+}
+
+#allPosts {
+    margin-right: 10px;
+}
+
+#createPosts {
+    margin-left: 10px;
+}
+
+.modal3 {
+    display: none;    
+    
+}
+
+.modal-content3 {
+    background-color: white;
+    margin-top: 80px;
+    margin-left: 150px;
+    width: 1200px;
+    height: 550px;    
+    padding: 25px;
+}
+
+
+#createpostsdiv {
+    width: 100%;
+}
+
+#form3 {
+    width: 100% ;
+}
+
+#form-fields3 {
+    width: 100% ;
+}
+
+#textareadiv {
+    display: flex;
+    flex-direction: column;
+    width: 100%;    
+}
+
+#contents {
+    background-color: lightgray;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 15px; 
+    font-weight: bold;
+}
+
+#create {
+    margin-left: 45%;
+}
+
+.close3 {
+    color: gray;
+    float: right;
+    font-size: 28px;      
+}
+
+.close3:hover,
+.close3:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
